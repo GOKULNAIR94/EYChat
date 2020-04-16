@@ -39,6 +39,6 @@ module.exports = function( callback) {
         });
     });
 
-    reqHttps.write("{\r\n\"username\": \"pladmin\",\r\n\"password\": \"tcl1234$#@!\"\r\n}\r\n\r\n\r\n");
+    reqHttps.write("");
     reqHttps.end();
 }
