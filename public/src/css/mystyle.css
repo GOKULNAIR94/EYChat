@@ -1,0 +1,90 @@
+.header{
+    position: fixed;
+    padding-left: 15px;
+    width: 100%;
+    background-color: #2e2e38;
+    color: white;
+    z-index: 1;
+}
+
+.customcontainer{   
+    padding-top: 55px;
+}
+
+.hero{
+    background-image: url("../images/office.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+    background-size:cover;
+}
+
+.textbg{
+    background-color: black;
+    opacity: 0.4;
+    height: 352px;
+    width: 100%;
+    position: absolute;
+}
+
+@media only screen and (max-width:800px) {
+    .customtitle{
+        font-size: 3rem;
+    }
+    .textbg{
+        height: 344px;
+    }
+
+}
+
+
+#bodybox {
+  margin: auto;
+  max-width: 550px;
+  font: 15px arial, sans-serif;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px 5px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 15px;
+	position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+
+#home {
+  width: 46px;
+  height: 44px;
+}
+
+#chatheader{
+	padding: 5px 15px 0px 15px;
+	align-items: baseline;
+}
+
+#chatborder {
+  border-style: solid;
+  background-color: #f6f9f6;
+  border-width: 3px;
+  margin: 0px 10px;
+  padding: 10px 10px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+.chatlog {
+   font: 15px arial, sans-serif;
+}
+
+#chatbox {
+  font: 17px arial, sans-serif;
+  height: 22px;
+  width: 100%;
+}
+
+pre {
+  background-color: #f0f0f0;
+  margin-left: 20px;
+}

@@ -1,0 +1,20 @@
+[
+{
+	"Process" : "HelloWorld",
+	"Device" : "AAClient3.corp.tatacapital.com",
+	"File" : "0000 Hello World.atmx",
+	"PIN" : "1001"
+},
+{
+	"Process" : "NOC",
+	"Device" : "AAClient3.corp.tatacapital.com",
+	"File" : "0000 Master Task For NOC",
+	"PIN" : "1002"
+},
+{
+	"Process" : "WelcomeLetter",
+	"Device" : "AAClient3.corp.tatacapital.com",
+	"File" : "0000 Master Task for Welcome Letter Dispatch",
+	"PIN" : "1003"
+}
+]
